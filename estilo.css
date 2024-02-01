@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.lista-personas {
+  list-style-type: none;
+  padding: 0;
+}
+
+.persona-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.eliminar-btn {
+  cursor: pointer;
+  color: red;
+  margin-left: 10px;
+}
+
+#logo {
+  max-width: 200px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+  margin-bottom: 20px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  text-align: left;
+}
+
+.barra-progreso {
+  width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  margin-top: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: rgb(163, 220, 236);
+}
+
+#fileInput {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+}
